@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Satisfy&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes smoothPulse {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-smoothPulse {
+  animation: smoothPulse 2s ease-in-out infinite;
+}
+
+body {
+  background: black;
+  color: white;
+  padding-bottom: 100px;
+}
