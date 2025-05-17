@@ -1,8 +1,8 @@
-# 🎶 Visual Music Analyzer
+# 🎶 HarmoniX - Visual Music Analyzer
 
 ## What It Is
 
-**Visual Music Analyzer** is a web-based application that allows users to upload music files and explore their structure through visual and analytical tools. It generates interactive visuals like waveforms, spectrograms with beat markers, energy curves, and chroma vectors — all rendered in an intuitive interface.
+**HarmoniX** is a web-based application that allows users to upload music files and explore their structure through visual and analytical tools. It generates interactive visuals like waveforms, spectrograms with beat markers, energy curves, and chroma vectors — all rendered in an intuitive interface.
 
 ---
 
